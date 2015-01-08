@@ -164,7 +164,7 @@ ul.dropdown-menu>li>a:hover {
 .cycle-pager {
     z-index: 101;
     position: absolute;
-    bottom: -70px;
+    top: 336px;
     width: 500px;
     right: 0px;
     text-align: center;
@@ -546,7 +546,7 @@ h1#customer-quote {
 
 /********** footer **********/
 #footer {
-    background: url(../images/bg-footer.png) top left repeat-x;
+    background: url(assets/images/bg-footer.png) top left repeat-x;
     height: 320px;
     color: #fff;
     border-top: solid 10px #444;
@@ -647,7 +647,7 @@ h1#customer-quote {
 }
 .right-bread {
     float: right;
-    width: 300px;
+    width: auto;
     text-align: right;
 }
 .right-bread>span {

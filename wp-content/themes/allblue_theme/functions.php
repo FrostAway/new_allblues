@@ -67,11 +67,11 @@ function my_post_queries($query) {
 
 function the_breadcrumb() {
     global $post;
-    echo '<div class="breadcrumb full"><div class="wrapper">';
+   
     
     if (!is_home()) {
-        echo '<div class="left-bread"><h1></h1></div>';
-        echo '<div class="right-bread"><span><a href="#">';
+
+       echo '<span><a href="">';
         echo 'Trang chủ';
         echo '</a></span><span><i class="fa fa-angle-right"></i></span>';
         if (is_category() || is_single()) {
@@ -111,7 +111,7 @@ function the_breadcrumb() {
         } elseif (is_search()) {
             echo"<span>Search Results";echo'</span>';
         }
-        echo '</div><div class="clear-fix"></div></div></div>';
+      
     }
 }
     ?>

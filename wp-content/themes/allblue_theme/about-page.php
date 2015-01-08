@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header() ?>
-<?php the_breadcrumb(); ?>
+<?php include_once 'inc/breadcrum.php'; ?>
 
 <div id="allblue-philosophy" class="full">
     <div class="wrapper">

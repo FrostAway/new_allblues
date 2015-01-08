@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php the_breadcrumb(); ?>
+<?php include_once 'inc/breadcrum.php'; ?>
 
 <?php
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

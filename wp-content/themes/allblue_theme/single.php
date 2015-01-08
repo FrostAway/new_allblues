@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php the_breadcrumb(); ?>
+<?php include_once 'inc/breadcrum.php'; ?>
 
 
 <div id="news" class="full">
