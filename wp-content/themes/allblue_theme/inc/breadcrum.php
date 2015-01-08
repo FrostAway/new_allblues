@@ -5,19 +5,16 @@
             <h1>            
            <?php
 		      if (function_exists('is_tag') && is_tag()) {
-		        single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
+		        single_tag_title("Tag Archive for &quot;");  }
 		      elseif (is_archive()) {
-		         wp_title(''); echo ' Archive - '; }
+		         wp_title('');  }
 		      elseif (is_search()) {
-		         echo 'Search for &quot;'.wp_specialchars($s).'&quot; - '; }
+		         echo 'Search for &quot;'.wp_specialchars($s).'&quot; -'; }
 		      elseif (!(is_404()) && (is_single()) || (is_page())) {
-		         wp_title(''); echo ' - '; }
+		         wp_title('');}
 		      elseif (is_404()) {
 		         echo 'Not Found - '; }
-		      if (is_home()) {
-		         bloginfo('name'); echo ' - '; bloginfo('description'); }
-		      else {
-		          bloginfo('name'); }
+		      
 		      if ($paged>1) {
 		         echo ' - page '. $paged; }
 		   ?>

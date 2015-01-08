@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header() ?>
-<?php get_sidebar('breadcrumb') ?>
+<?php include_once 'inc/breadcrum.php'; ?>
 
 <div id="templates" class="full">
     <h1 class="text-center blue">KHO GIAO DIỆN</h1>
