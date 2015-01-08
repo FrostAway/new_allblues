@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header() ?>
-<?php get_sidebar('breadcrumb') ?>
+<?php the_breadcrumb() ?>
 
 
 <div id="news" class="full">

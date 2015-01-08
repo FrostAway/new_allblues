@@ -654,7 +654,7 @@ h1#customer-quote {
 }
 .right-bread {
     float: right;
-    width: 300px;
+    width: auto;
     text-align: right;
 }
 .right-bread>span {

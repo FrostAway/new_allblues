@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_sidebar("breadcrumb") ?>
+<?php the_breadcrumb(); ?>
 
 <?php
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
