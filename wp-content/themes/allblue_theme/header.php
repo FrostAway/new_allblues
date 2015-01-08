@@ -62,35 +62,33 @@
 <div id="top-menu" class="full">
     <div class="wrapper">
         <a class="logo" href="<?php echo home_url(); ?>"><img src="<?php echo bloginfo('template_directory') ?>/assets/images/top-logo.png"></a>
-<!--        <ul class="menu list-inline">
-            <li><a href="#">Trang chủ</a></li>
-            <li><a href="#">Giới thiệu</a></li>
+        <ul class="menu list-inline">
+            <li><a href="<?php echo home_url() ?>">Trang chủ</a></li>
+            <li><a href="<?php echo home_url() ?>/?page_id=19">Giới thiệu</a></li>
             <li class="dropdown">
                 <a href="#">Dịch vụ <i class="fa fa-caret-down"></i></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Thiết kế website</a></li><hr>
-                    <li><a href="#">Thiết kế đồ họa</a></li><hr>
-                    <li><a href="#">SEO từ khóa</a></li><hr>
-                    <li><a href="#">Quảng cáo Google Adwords</a></li><hr>
-                    <li><a href="#">Quảng cáo Facebook</a></li>
+                    <li><a href="<?php echo home_url()?>/?page_id=24">Thiết kế website</a></li><hr>
+                    <li><a href="<?php echo home_url()?>/?page_id=26">Thiết kế đồ họa</a></li><hr>
+                    <li><a href="<?php echo home_url()?>/?page_id=30">SEO từ khóa</a></li><hr>
+                    <li><a href="<?php echo home_url()?>/?page_id=27">Quảng cáo Google Adwords</a></li><hr>
+                    <li><a href="<?php echo home_url()?>/?page_id=28">Quảng cáo Facebook</a></li>
                 </ul>
             </li>
-            <li><a href="#">Kho giao diện</a></li>
-            <li><a href="#">Tin tức</a></li>
-            <li><a href="#">Liên hệ</a></li>
-        </ul>-->
-        
-        <?php wp_nav_menu(array(
-            'container' => '',
-            'menu_class' => 'menu list-inline',
-            'menu_id' => 'my-menu',
-            )); ?>
-<script>
+            <li><a href="<?php echo home_url()?>/?page_id=36">Kho giao diện</a></li>
+            <li><a href="<?php echo home_url()?>/?cat=1">Tin tức</a></li>
+            <li><a href="<?php echo home_url()?>/?page_id=17">Liên hệ</a></li>
+        </ul>
 
-$(document).ready(function(){
-   $("#my-menu .menu-item-has-children").addClass("dropdown");
-   $("#my-menu .menu-item-has-children ul").addClass("dropdown-menu");
-});
+        <?php 
+//        wp_nav_menu(array(
+//            'container' => false,
+//            'menu_class' => 'menu list-inline',
+//            'menu_id' => 'my-menu',
+//            )); 
+        ?>
+    
+<script>
 
 </script>
         

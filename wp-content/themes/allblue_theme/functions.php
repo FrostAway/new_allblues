@@ -1,4 +1,5 @@
 <?php
+include_once 'inc/navwalker.php';;
 	
 	// Add RSS links to <head> section
 	automatic_feed_links();
