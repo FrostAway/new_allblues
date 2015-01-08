@@ -37,11 +37,12 @@
 	
 	
 	
-	
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	<!--<link rel="pingback" href="<?php// bloginfo('pingback_url'); ?>">-->
         
         <link rel="stylesheet" href="<?php echo bloginfo('template_directory') ?>/assets/css/reset.css">
-        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+        <link rel="stylesheet" href="<?php echo bloginfo('template_directory') ?>/assets/css/style.css">
+        
         <link rel="stylesheet" href="<?php echo bloginfo('template_directory') ?>/assets/css/font-awesome.min.css">
 
     <script src="<?php echo bloginfo('template_directory') ?>/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>

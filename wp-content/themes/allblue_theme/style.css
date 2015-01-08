@@ -1,11 +1,4 @@
-/*   
-Theme Name: Allblue Theme
-Theme URI: http://allbluevn.com
-Description: Coder
-Author: Nhansay
-Author URI: http://Allbluevn.com
-Version: 1
-*/
+
 
 
 .full {
@@ -654,7 +647,7 @@ h1#customer-quote {
 }
 .right-bread {
     float: right;
-    width: auto;
+    width: 300px;
     text-align: right;
 }
 .right-bread>span {
