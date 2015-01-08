@@ -74,27 +74,16 @@ function the_breadcrumb() {
        echo '<span><a href="">';
         echo 'Trang chủ';
         echo '</a></span><span><i class="fa fa-angle-right"></i></span>';
-        if (is_category() || is_single()) {
+        if (is_category()) {
             echo '<span>';
             the_category(get_query_var('cat'));
-            echo '</span><span><i class="fa fa-angle-right"></i></span><span>';
-            if(is_single()){
-                echo '</span><span><i class="fa fa-angle-right"></i></span><span>';
-                the_title();
-                echo '</span>';
-            }
+            echo '</span><span><i class="fa fa-angle-right"></i></span>';
+        }elseif(is_single()){
+                echo '<span>';
+                echo get_the_category(get_the_ID())[0]->cat_name;
+                echo '</span><span><i class="fa fa-angle-right"></i></span>';
         } elseif (is_page()) {
-            if ($post->post_parent) {
-                $anc = get_post_ancestors($post->ID);
-                $title = get_the_title();
-                foreach ($anc as $ancestor) {
-                    $output = '<span><a href="' . get_permalink($ancestor) . '">' . get_the_title($ancestor) . '</a></span><i class="fa fa-angle-right"></i> </span>';
-                }
-                echo $output;
-                echo ' <strong title="' . $title . '">' . $title . '</strong>';
-            } else {
                 echo ' <span><strong> ' . get_the_title() . '</strong> </span>';
-            }
         } elseif (is_tag()) {
             single_tag_title();
         } elseif (is_day()) {

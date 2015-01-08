@@ -4,19 +4,19 @@
         <div class="left-bread">
             <h1>            
            <?php
-		      if (function_exists('is_tag') && is_tag()) {
+		     if (function_exists('is_tag') && is_tag()) {
 		        single_tag_title("Tag Archive for &quot;");  }
 		      elseif (is_archive()) {
 		         wp_title('');  }
 		      elseif (is_search()) {
-		         echo 'Search for &quot;'.wp_specialchars($s).'&quot; -'; }
-		      elseif (!(is_404()) && (is_single()) || (is_page())) {
-		         wp_title('');}
+		         echo 'Search for &quot;'.wp_specialchars($s).'&quot;'; }
+		      elseif (is_page()) {
+		         wp_title('');                         
+                      }else if(is_single()){
+                          echo get_the_category(get_the_ID())[0]->cat_name;
+                      }
 		      elseif (is_404()) {
 		         echo 'Not Found - '; }
-		      
-		      if ($paged>1) {
-		         echo ' - page '. $paged; }
 		   ?>
             
             </h1>
