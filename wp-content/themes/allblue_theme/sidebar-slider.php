@@ -4,8 +4,8 @@
         <div class="cycle-control cycle-prev"><i class="fa fa-chevron-left"></i></div>
         <div class="cycle-control cycle-next"><i class="fa fa-chevron-right"></i></div>
         <div class="cycle-pager"></div>
-        <img src="assets/images/bgr-p.png" alt="">
-        <img src="assets/images/bgr-p.png" alt="">
+        <img src="<?php echo bloginfo('template_directory') ?>/assets/images/bgr-p.png" alt="">
+        <img src="<?php echo bloginfo('template_directory') ?>/assets/images/bgr-p.png" alt="">
     </div>
 </div>
 <!---- / #top-slider ---->

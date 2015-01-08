@@ -132,12 +132,10 @@ $(document).ready(function() {
             count_animate_3++;
 
             $("#templates>h1").animate({
-                top:"-=40px",
-                "font-size":"26px"
+                top:"-=40px"
             },800, function() {
                 $("#templates>h1").animate({
-                    top:"+=40px",
-                    "font-size":"24px"
+                    top:"+=40px"
                 }, 1200);
             });
         }
