@@ -279,7 +279,7 @@ ul.dropdown-menu>li>a:hover {
     position: absolute;
     width: 30px;
     height: 15px;
-    background: url(../images/li-triangle.png) top left no-repeat;
+    background: url(assets/images/li-triangle.png) top left no-repeat;
     left: 40px;
     bottom: -20px;
 }
@@ -384,7 +384,7 @@ ul.dropdown-menu>li>a:hover {
 
 /********** progress *********/
 #progress {
-    background: url(../images/bgr-p.png) top left no-repeat;
+    background: url(assets/images/bgr-p.png) top left no-repeat;
     height: 370px;
     color: #b1e0f9;
     margin-bottom: 0;
@@ -443,7 +443,7 @@ ul.dropdown-menu>li>a:hover {
 #progress>.triangle {
     width: 100%;
     height: 26px;
-    background: url(../images/triangle.png) top center no-repeat;
+    background: url(assets/images/triangle.png) top center no-repeat;
 }
 /********** customer **********/
 #customer {
