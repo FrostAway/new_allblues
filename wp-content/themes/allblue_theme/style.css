@@ -319,11 +319,9 @@ ul.dropdown-menu>li>a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: #1f1f1f;
     border-radius: 1px;
-}
-.template-img:hover>.layer {
-    background: rgba(34, 34, 34, 0.78);
+    opacity: 0;
 }
 .template-img>a {
     position: absolute;
@@ -335,9 +333,6 @@ ul.dropdown-menu>li>a:hover {
     padding: 4px 10px 6px;
     border-radius: 4px;
     display: none;
-}
-.template-img:hover>a {
-    display: block;
 }
 .template-img>img {
     width: 100%;
@@ -496,6 +491,8 @@ h1#customer-quote {
 .customer-info>p {
     margin-left: 10px;
     margin-right: 10px;
+    width: 320px;
+    white-space: normal;
 }
 .customer-info>hr {
     display: none;
@@ -533,11 +530,6 @@ h1#customer-quote {
     width: 100px;
     height: 90px;
     margin: 0px 10px 10px 0px;
-}
-.post-item>.post-sum>h5 {
-}
-.post-item>.post-sum>.small {
-    
 }
 .post-right {
     float: left;
@@ -796,6 +788,9 @@ h1#customer-quote {
     height: 40px;
     position: relative;
     top: 10px;
+}
+.advantage-box:hover>.left>div {
+    opacity: 0.3;
 }
 .advantage-box>.right {
     float: left;

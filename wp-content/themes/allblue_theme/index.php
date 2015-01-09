@@ -13,7 +13,7 @@
             <span class="blue">khác biệt</span> và <span class="blue">độc đáo</span> không lẫn vào đâu được!
         </p>
         <div class="feature-box" id="fb1">
-            <a href="<?php echo home_url() ?>/?page_id=36"><img src="<?php echo bloginfo('template_directory') ?>/assets/images/feature-icon1.png"></a>
+            <a href="#"><img src="<?php echo bloginfo('template_directory') ?>/assets/images/feature-icon1.png"></a>
             <h3>GIAO DIỆN</h3>
             <p>Độc đáo & khác biệt<br>
                 tương tác cao</p>
@@ -151,7 +151,7 @@
                 <p class="template-note">Bài ca người xây dựng</p>
             </div>
             <div class="clear-fix"></div>
-            <a class="view-more blue" href="#">Xem thêm giao diện</a>
+            <a class="view-more blue" href="">Xem thêm giao diện</a>
             <div class="clear-fix"></div>
         </div>
     </div>
@@ -234,7 +234,35 @@
         </h1>
         <p class="help text-center light">Hãy xem khách hàng nói gì về chúng tôi!</p>
         <div id="customer-slide">
-            <div class="slide-content">
+            <div id="slideshow2" class="slide-content cycle-slideshow"
+                 data-cycle-fx=carousel
+                 data-cycle-timeout=3500
+                 data-cycle-slides=">.customer-item"
+                 data-cycle-carousel-visible=2>
+                <div class="customer-item">
+                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/customer.png">
+                    <div class="customer-info">
+                        <h4 class="blue">Ông Lê Thanh Nam</h4>
+                        <p class="light small">Giám đốc công ty TNHH Thành Nam</p>
+                        <p class="customer-comment">
+                            "Thay mặt anh em trong công ty cám ơn tinh thần và sự hỗ trợ nhiệt tình của các bạn AllBlue.
+                            Thật tuyệt vời khi được làm việc cùng các bạn!"
+                        </p>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+                <div class="customer-item">
+                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/customer.png">
+                    <div class="customer-info">
+                        <h4 class="blue">Ông Lê Thanh Nam</h4>
+                        <p class="light small">Giám đốc công ty TNHH Thành Nam</p>
+                        <p class="customer-comment">
+                            "Thay mặt anh em trong công ty cám ơn tinh thần và sự hỗ trợ nhiệt tình của các bạn AllBlue.
+                            Thật tuyệt vời khi được làm việc cùng các bạn!"
+                        </p>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
                 <div class="customer-item">
                     <img src="<?php echo bloginfo('template_directory') ?>/assets/images/customer.png">
                     <div class="customer-info">

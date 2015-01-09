@@ -73,9 +73,8 @@
             <div class="right">
                 <h4>Làm được mọi thứ mà bạn yêu cầu</h4>
                 <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                    sit amet quam egestas semper.
+                    Với đội ngũ nhân viên thiết kế và lập trình dạn dày kinh nghiệm, tư duy tốt và không ngại khó khăn,
+                    chúng tôi cam kết đáp ứng được mọi yêu cầu của khách hàng về mặt giao diện cũng như chức năng.
                 </p>
             </div>
             <div class="clear-fix"></div>
@@ -85,11 +84,10 @@
                 <div></div>
             </div>
             <div class="right">
-                <h4>Làm được mọi thứ mà bạn yêu cầu</h4>
+                <h4>Công nghệ hiện đại nhất</h4>
                 <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                    sit amet quam egestas semper.
+                    AllBlue trên tinh thần chuyên sâu, chất lượng, luôn chủ động tìm tòi, nghiên cứu những công nghệ mới nhất,
+                    với mong muốn chất lượng sản phẩm của người Việt Nam phải vươn ra xứng tầm quốc tế.
                 </p>
             </div>
             <div class="clear-fix"></div>
@@ -99,26 +97,10 @@
                 <div></div>
             </div>
             <div class="right">
-                <h4>Làm được mọi thứ mà bạn yêu cầu</h4>
+                <h4>Giao diện và tính tương tác</h4>
                 <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                    sit amet quam egestas semper.
-                </p>
-            </div>
-            <div class="clear-fix"></div>
-        </div>
-
-        <div class="advantage-box">
-            <div class="left">
-                <div></div>
-            </div>
-            <div class="right">
-                <h4>Làm được mọi thứ mà bạn yêu cầu</h4>
-                <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                    sit amet quam egestas semper.
+                    Trên tinh thần coi trọng giao diện và tính tương tác, AllBlue luôn cố gắng để tạo ra những sản phẩm
+                    "chỉ mới nhìn đã thấy mê", coi trọng sự đơn giản nhưng ấn tượng và tính tương tác cao đối với người dùng.
                 </p>
             </div>
             <div class="clear-fix"></div>
@@ -128,11 +110,24 @@
                 <div></div>
             </div>
             <div class="right">
-                <h4>Làm được mọi thứ mà bạn yêu cầu</h4>
+                <h4>Website được thiết kế riêng cho bạn</h4>
                 <p>
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                    sit amet quam egestas semper.
+                    Website được thiết kế theo yêu cầu riêng của bạn, độc đáo và duy nhất.
+                    Nếu một ngày bạn có tình cờ bắt gặp một website nào đó "na ná" website của bạn, chỉ có thể là người ta đã
+                    sao chép ý tưởng của bạn!
+                </p>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+        <div class="advantage-box">
+            <div class="left">
+                <div></div>
+            </div>
+            <div class="right">
+                <h4>Marketing online</h4>
+                <p>
+                    Thiết kế chuẩn SEO, tích hợp Google Analytics, Google Adwords ... Cam kết tạo ra một sản phẩm mạnh mẽ,
+                    một công cụ đắc lực trong việc tiếp cận và tìm kiếm khách hàng của bạn.
                 </p>
             </div>
             <div class="clear-fix"></div>

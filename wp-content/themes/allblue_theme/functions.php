@@ -77,13 +77,13 @@ function the_breadcrumb() {
         if (is_category()) {
             echo '<span>';
             the_category(get_query_var('cat'));
-            echo '</span><span><i class="fa fa-angle-right"></i></span>';
+            echo '</span>';
         }elseif(is_single()){
                 echo '<span>';
                 echo get_the_category(get_the_ID())[0]->cat_name;
-                echo '</span><span><i class="fa fa-angle-right"></i></span>';
+                echo '</span>';
         } elseif (is_page()) {
-                echo ' <span><strong> ' . get_the_title() . '</strong> </span>';
+                echo '<span>' . get_the_title() . '</span>';
         } elseif (is_tag()) {
             single_tag_title();
         } elseif (is_day()) {

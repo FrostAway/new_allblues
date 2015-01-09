@@ -29,18 +29,10 @@ $(document).ready(function() {
 
     // hover feature box
     $(".feature-box").hover(function(){
-//            $(this).animate({
-//                top:"-=20px"
-//            });
             $(this).children("h3").slideUp(100);
-            //$(this).children("p").css({"font-weight":"bold"});
         },
         function() {
-//            $(this).animate({
-//                top:"+=20px"
-//            });
             $(this).children("h3").slideDown(100);
-            //$(this).children("p").css({"font-weight":"normal"});
         });
 
     // click template category icon
@@ -57,13 +49,22 @@ $(document).ready(function() {
         var category_id = $(this).attr("data-category");
         $(".template-box").each(function(){
             if ($(this).attr("cat").indexOf(category_id) > -1) {
-                $(this).show();
+                $(this).show("slow");
             }
             else {
-                $(this).hide();
+                $(this).hide("slow");
             }
         });
+    });
 
+    // hover template box
+    $(".template-img").hover(function() {
+            $(this).children(".layer").animate({opacity:"0.5"});
+            $(this).children("a").fadeIn();
+        },
+        function() {
+            $(this).children(".layer").animate({opacity:"0"});
+            $(this).children("a").fadeOut();
     });
 
     // click view template
@@ -83,7 +84,6 @@ $(document).ready(function() {
     // close layer
 
     $("#fixed-img>img").click(function() {
-        event.preventDefault();
         event.stopPropagation();
     });
     $("#fixed-img").click(function() {
@@ -94,13 +94,9 @@ $(document).ready(function() {
     });
     $("#close-layer-button").click(function() {
         close_layer();
+        event.preventDefault();
     });
 
-    function close_layer() {
-        $("#fixed-img").hide();
-        $("#close-layer-buttun").hide();
-        $("#fixed-layer").fadeOut("slow");
-    }
 
     // progress animate
     $(".progress-box").hover(function() {
@@ -123,6 +119,12 @@ $(document).ready(function() {
     /**                                                     **/
     /*********************************************************/
     /*********************************************************/
+
+    function close_layer() {
+        $("#fixed-img").hide();
+        $("#close-layer-button").hide();
+        $("#fixed-layer").fadeOut("slow");
+    }
 
     // animate feature header function
     count_animate_1 = 0;
