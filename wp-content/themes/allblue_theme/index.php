@@ -86,14 +86,14 @@
         <div class="wrapper">
             <div class="template-box" cat="1">
                 <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item2.jpg">
+                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item1.jpg">
                     <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
+                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/temp1.jpg" href="#">
                         <i class="fa fa-search"></i> Chi tiết
                     </a>
                 </div>
-                <h5>Công ty TNHH Trường Phát</h5>
-                <p class="template-note">Vươn xa mọi miền Tổ quốc</p>
+                <h5>Lắp đặt truyền hình An Viên</h5>
+                <p class="template-note"><a href="http://anvienhd.org">anvienhd.org</a></p>
             </div>
             <div class="template-box" cat="1 2">
                 <div class="template-img">
