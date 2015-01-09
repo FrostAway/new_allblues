@@ -151,7 +151,7 @@
                 <p class="template-note">Bài ca người xây dựng</p>
             </div>
             <div class="clear-fix"></div>
-            <a class="view-more blue" href="">Xem thêm giao diện</a>
+            <a class="view-more blue" href="<?php echo home_url()?>/?page_id=36">Xem thêm giao diện</a>
             <div class="clear-fix"></div>
         </div>
     </div>

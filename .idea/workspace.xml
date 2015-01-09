@@ -7,11 +7,8 @@
       <change type="DELETED" beforePath="C:\wamp\www\new_allblue\wp-content\themes\allblue_theme\assets\images\templates\full\hd-templates.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\new_allblue\wp-content\themes\allblue_theme\assets\images\templates\full\index.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\new_allblue\wp-content\themes\allblue_theme\assets\images\templates\img1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item3.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item4.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/images/templates/item4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css" />
     </list>
     <ignored path="new_allblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="134" selection-start="3666" selection-end="3666" vertical-scroll-proportion="0.4450262" vertical-offset="1275" max-vertical-offset="6154">
+            <state line="153" column="79" selection-start="7299" selection-end="7299" vertical-scroll-proportion="-52.153847" vertical-offset="1245" max-vertical-offset="6154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="374" column="18" selection-start="6296" selection-end="6296" vertical-scroll-proportion="0.58986926" vertical-offset="5997" max-vertical-offset="15402">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="60" selection-start="3543" selection-end="3578" vertical-scroll-proportion="-17.653847" vertical-offset="867" max-vertical-offset="1666">
               <folding />
             </state>
           </provider>
@@ -57,7 +72,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/sidebar-slider.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/about-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/assets/js/animate.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/template-store-page.php" />
@@ -65,6 +79,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css" />
       </list>
     </option>
   </component>
@@ -430,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="791" column="20" selection-start="13150" selection-end="13150" vertical-scroll-proportion="0.0" vertical-offset="12937" max-vertical-offset="15402">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/about-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="39" selection-start="5992" selection-end="5992" vertical-scroll-proportion="1.3076923" vertical-offset="2193" max-vertical-offset="3740">
@@ -490,14 +498,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="55" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.58514494" vertical-offset="816" max-vertical-offset="1666">
+        <state line="78" column="60" selection-start="3543" selection-end="3578" vertical-scroll-proportion="-17.653847" vertical-offset="867" max-vertical-offset="1666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="134" selection-start="3666" selection-end="3666" vertical-scroll-proportion="0.4450262" vertical-offset="1275" max-vertical-offset="6154">
+        <state line="153" column="79" selection-start="7299" selection-end="7299" vertical-scroll-proportion="-52.153847" vertical-offset="1245" max-vertical-offset="6154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/allblue_theme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="374" column="18" selection-start="6296" selection-end="6296" vertical-scroll-proportion="0.58986926" vertical-offset="5997" max-vertical-offset="15402">
           <folding />
         </state>
       </provider>

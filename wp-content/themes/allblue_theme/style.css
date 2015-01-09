@@ -372,7 +372,7 @@ ul.dropdown-menu>li>a:hover {
 }
 #fixed-img>img {
     display: block;
-    max-width: 92%;
+    max-width: 100%;
     margin: 50px auto;
     z-index: 1002;
 }
