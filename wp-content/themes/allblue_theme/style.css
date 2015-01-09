@@ -357,26 +357,35 @@ ul.dropdown-menu>li>a:hover {
 }
 
 #fixed-layer {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.80);
     z-index: 1000;
     display: none;
 }
-#fixed-layer>img {
+#fixed-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 1001;
+    display: none;
+}
+#fixed-img>img {
+    display: block;
     max-width: 92%;
     margin: 50px auto;
-    display: block;
-    z-index: 1001;
+    z-index: 1002;
 }
-#close-layer {
+#close-layer-button {
     position: fixed;
     top: 43px;
     right: 14px;
-    z-index: 1001;
+    z-index: 1003;
     color: #fff;
     font-size: 18px;
     display: none;

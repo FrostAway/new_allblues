@@ -68,17 +68,39 @@ $(document).ready(function() {
 
     // click view template
     $(".view-template").click(function() {
+        var data_img = $(this).attr("data-img");
         // get src of appropriate image
-        $("#fixed-layer").fadeIn("slow");
-        $("#close-layer").fadeIn("slow");
-        $("#fixed-layer>img").attr("src", $(this).attr("data-img"));
+        $("#fixed-layer").fadeIn("slow", function() {
+            $("#close-layer-button").show();
+            $('html, body').animate({scrollTop : 0},400, function() {
+                $("#fixed-img>img").attr("src", data_img);
+                $("#fixed-img").show();
+            });
+        });
+        event.preventDefault();
     });
 
     // close layer
-    $("#close-layer").click(function() {
-        $("#fixed-layer").fadeOut("slow");
-        $("#close-layer").fadeOut("slow");
+
+    $("#fixed-img>img").click(function() {
+        event.preventDefault();
+        event.stopPropagation();
     });
+    $("#fixed-img").click(function() {
+        close_layer();
+    });
+    $("#fixed-layer").click(function() {
+        close_layer();
+    });
+    $("#close-layer-button").click(function() {
+        close_layer();
+    });
+
+    function close_layer() {
+        $("#fixed-img").hide();
+        $("#close-layer-buttun").hide();
+        $("#fixed-layer").fadeOut("slow");
+    }
 
     // progress animate
     $(".progress-box").hover(function() {

@@ -132,7 +132,7 @@
                 <div class="template-img">
                     <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item3.jpg">
                     <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
+                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/hd-templates.jpg" href="#">
                         <i class="fa fa-search"></i> Chi tiết
                     </a>
                 </div>
@@ -158,11 +158,12 @@
 </div>
 <!---- / #templates ---->
 
-<a href="#" id="close-layer">
+<a href="#" id="close-layer-button">
     <i class="fa fa-close fa-2x"></i>
 </a>
-<div id="fixed-layer">
-    <img src="#">
+<div id="fixed-layer"></div>
+<div id="fixed-img">
+    <img src="">
 </div>
 
 <!---- #progress ---->
