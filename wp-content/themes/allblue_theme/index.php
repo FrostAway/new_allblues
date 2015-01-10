@@ -238,7 +238,9 @@
                  data-cycle-fx=carousel
                  data-cycle-timeout=3500
                  data-cycle-slides=">.customer-item"
-                 data-cycle-carousel-visible=2>
+                 data-cycle-carousel-visible=2
+                 data-cycle-next="#carousel-prev"
+                 data-cycle-prev="#carousel-next">
                 <div class="customer-item">
                     <img src="<?php echo bloginfo('template_directory') ?>/assets/images/customer.png">
                     <div class="customer-info">
@@ -289,8 +291,8 @@
                 </div>
                 <div class="clear-fix"></div>
             </div>
-            <a class="slide-control left"><i class="fa fa-angle-left"></i></a>
-            <a class="slide-control right"><i class="fa fa-angle-right"></i></a>
+            <a id="carousel-prev" class="slide-control left"><i class="fa fa-angle-left"></i></a>
+            <a id="carousel-next" class="slide-control right"><i class="fa fa-angle-right"></i></a>
         </div>
     </div>
 </div>

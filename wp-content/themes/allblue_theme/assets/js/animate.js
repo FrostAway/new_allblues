@@ -146,7 +146,7 @@ $(document).ready(function() {
 
             $(".feature-box").animate({
                 opacity:"1"
-            });
+            }, 1500);
         }
     }
 
