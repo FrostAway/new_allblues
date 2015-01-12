@@ -242,7 +242,7 @@
     <div class="wrapper">
         <div class="post-left">
             <h1 class="">BẢN TIN ALLBLUE</h1><div class="clear-fix"></div>
-            <?php query_posts(array('posts_per_page' => 1, 'paged' => $paged));  ?>
+            <?php query_posts(array('posts_per_page' => 3, 'paged' => $paged));  ?>
             <?php if(have_posts()): while(have_posts()) : the_post(); ?>
             <div class="post-item">
                 <?php the_post_thumbnail(); ?>
@@ -259,30 +259,7 @@
             
             <?php endif; ?>
             
-            <div class="post-item">
-                <img src="<?php echo bloginfo('template_directory') ?>/assets/images/post-thumb.jpg">
-                <div class="post-sum">
-                    <h5><a href="#">Ý nghĩa màu sắc website của bạn</a></h5>
-                    <p class="small light">15/12/2014, 01:46 pm</p>
-                    <p class="dark">
-                        Thống kê cho thấy, thời gian trung bình khách hàng
-                        sử dụng để ghé thăm một trang web bán hàng đang ngày càng giảm dần (hiện tại là 2,4 giây) ...
-                    </p>
-                </div>
-                <div class="clear-fix"></div>
-            </div>
-            <div class="post-item">
-                <img src="<?php echo bloginfo('template_directory') ?>/assets/images/post-thumb.jpg">
-                <div class="post-sum">
-                    <h5><a href="#">Ý nghĩa màu sắc website của bạn</a></h5>
-                    <p class="small light">15/12/2014, 01:46 pm</p>
-                    <p class="dark">
-                        Thống kê cho thấy, thời gian trung bình khách hàng
-                        sử dụng để ghé thăm một trang web bán hàng đang ngày càng giảm dần (hiện tại là 2,4 giây) ...
-                    </p>
-                </div>
-                <div class="clear-fix"></div>
-            </div>
+            
         </div>
         <div class="post-right">
             <h3 class="">Dự án của chúng tôi</h3><div class="clear-fix"></div>
