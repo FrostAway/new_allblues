@@ -12,16 +12,16 @@
     <div class="wrapper">
         <div class="left">
             <h3>Liên hệ với AllBlue</h3>
-            <form>
+            <form method="post" action="">
                 <p>Họ tên</p>
-                <p><input type="text"></p>
+                <p><input name="contact[name]" type="text" required=""></p>
                 <p>Số điện thoại</p>
-                <p><input type="text"></p>
+                <p><input name="contact[phone]" type="text"></p>
                 <p>Email</p>
-                <p><input type="email"></p>
+                <p><input name="contact[email]" type="email" required=""></p>
                 <p>Nội dung liên hệ</p>
-                <p><textarea rows="10"></textarea></p>
-                <p><button type="submit">Gửi</button></p>
+                <p><textarea name="contact[content]" rows="10"></textarea></p>
+                <p><button name="contact-submit" type="submit">Gửi</button></p>
             </form>
         </div>
         <div class="right">

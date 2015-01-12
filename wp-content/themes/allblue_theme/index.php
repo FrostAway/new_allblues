@@ -46,112 +46,51 @@
     <h1 class="text-center blue">Kho giao diện mẫu phong phú và tuyệt đẹp</h1>
     <div id="templates-header">
         <ul class="list-inline">
-            <li data-category="1" class="active">
+            <li data-category="0" class="active">
                 <p><i class="fa fa-star fa-2x"></i></p>
                 <p>Nổi bật</p>
                 <div class="li-triangle"></div>
             </li>
-            <li data-category="2">
-                <p><i class="fa fa-shopping-cart fa-2x"></i></p>
-                <p>Bán hàng</p>
+            <?php $terms = get_terms('template-category'); ?>
+            <?php foreach ($terms as $term) { ?>  
+            <li data-category="<?php echo $term->term_id ?>" class="">
+                <p><i class="fa fa-star fa-2x"></i></p>
+                <p><?php echo $term->name ?></p>
+                <div class="li-triangle"></div>
             </li>
-            <li data-category="3">
-                <p><i class="fa fa-windows fa-2x"></i></p>
-                <p>Doanh nghiệp</p>
-            </li>
-            <li data-category="4">
-                <p><i class="fa fa-user fa-2x"></i></p>
-                <p>Cá nhân</p>
-            </li>
-            <li data-category="5">
-                <p><i class="fa fa-newspaper-o fa-2x"></i></p>
-                <p>Tin tức</p>
-            </li>
-            <li data-category="6">
-                <p><i class="fa fa-university fa-2x"></i></p>
-                <p>Giáo dục</p>
-            </li>
-            <li data-category="7">
-                <p><i class="fa fa-laptop fa-2x"></i></p>
-                <p>Công nghệ</p>
-            </li>
-            <li data-category="8">
-                <p><i class="fa fa-list-ul fa-2x"></i></p>
-                <p>Khác</p>
-            </li>
+            <?php } ?>
             <div class="clear-fix"></div>
         </ul>
     </div>
     <div id="templates-body">
         <div class="wrapper">
-            <div class="template-box" cat="1">
+            <?php query_posts(array('post_type' => 'template', 'showposts'=>4)); ?>
+            <?php if (have_posts()): while (have_posts()): the_post(); ?>
+
+                    <?php
+                    $taxonomies = get_the_terms($post->ID, 'template-category');
+                    $term_id = '';
+                    foreach ($taxonomies as $term) {
+                        $term_id .= $term->term_id . ' ';
+                    }
+                    ?>
+            <div class="template-box" cat="<?php echo $term_id ?>">
                 <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item1.jpg">
+                    <?php the_post_thumbnail(); ?>
                     <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/temp1.jpg" href="#">
+                    <a class="view-template" data-img="<?php echo get_post_meta(get_the_ID(), 'template-image', tre); ?>">
                         <i class="fa fa-search"></i> Chi tiết
                     </a>
                 </div>
-                <h5>Lắp đặt truyền hình An Viên</h5>
-                <p class="template-note"><a href="http://anvienhd.org">anvienhd.org</a></p>
+                <h5><?php the_title(); ?></h5>
+                <p class="template-note"><?php the_excerpt(); ?></p>
             </div>
-            <div class="template-box" cat="1 2">
-                <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item2.jpg">
-                    <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
-                        <i class="fa fa-search"></i> Chi tiết
-                    </a>
-                </div>
-                <h5>Công ty TNHH Thành Nam</h5>
-                <p class="template-note">Bài ca người xây dựng</p>
-            </div>
-            <div class="template-box" cat="1 2">
-                <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item4.jpg">
-                    <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
-                        <i class="fa fa-search"></i> Chi tiết
-                    </a>
-                </div>
-                <h5>Công ty TNHH Thành Nam</h5>
-                <p class="template-note">Bài ca người xây dựng</p>
-            </div>
-            <div class="template-box" cat="1 2">
-                <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item2.jpg">
-                    <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
-                        <i class="fa fa-search"></i> Chi tiết
-                    </a>
-                </div>
-                <h5>Công ty TNHH Thành Nam</h5>
-                <p class="template-note">Bài ca người xây dựng</p>
-            </div>
-            <div class="template-box" cat="1 2">
-                <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item3.jpg">
-                    <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/hd-templates.jpg" href="#">
-                        <i class="fa fa-search"></i> Chi tiết
-                    </a>
-                </div>
-                <h5>Công ty TNHH Thành Nam</h5>
-                <p class="template-note">Bài ca người xây dựng</p>
-            </div>
-            <div class="template-box" cat="1 2">
-                <div class="template-img">
-                    <img src="<?php echo bloginfo('template_directory') ?>/assets/images/templates/item4.jpg">
-                    <div class="layer"></div>
-                    <a class="view-template" data-img="<?php echo bloginfo('template_directory') ?>/assets/images/templates/full/index.jpg" href="#">
-                        <i class="fa fa-search"></i> Chi tiết
-                    </a>
-                </div>
-                <h5>Công ty TNHH Thành Nam</h5>
-                <p class="template-note">Bài ca người xây dựng</p>
-            </div>
+            <?php endwhile; else: ?>
+            
+            <?php endif; ?>
+            
             <div class="clear-fix"></div>
-            <a class="view-more blue" href="<?php echo home_url()?>/?page_id=36">Xem thêm giao diện</a>
+            <a class="view-more blue" href="<?php echo home_url() ?>/?page_id=36">Xem thêm giao diện</a>
             <div class="clear-fix"></div>
         </div>
     </div>
